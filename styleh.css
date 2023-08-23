@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    transition: .5s;
+}
+
+.hero-btn{
+    width: 100px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: #EC4D83;
+    border: 1px solid #EC4D83;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.hero-btn:hover{
+    color: #EC4D83;
+    background: #eee;
+    border: 1px solid #EC4D83;
+}
+
+.hero-btn:active{
+    color: #fff;
+    background: #EC4D83;
+}
+
+.header {
+    width: 100%;
+    min-height: 100vh;
+    background: url(./img/header-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-box ,
+.bio-box{
+    height: 550px;
+    width: 520px;
+}
+
+.header-content{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.header-img{
+    background:url(./img/peter.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.header-content .sub-header p{
+    font-size: 36px    
+}
+.header-content .sub-header span{
+    font-size: 48px;
+    font-weight: bold;
+    color: #EC4D83;    
+    margin-top: 40px;
+}
+
+.biography {
+    width: 100%;
+    min-height: 100vh;
+    background: url(./img/biography-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bio-ctn{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.bio-ctn .sub-header p{
+    font-size: 36px;
+}
+
+.bio-img{
+    background:url(./img/peter_dream.png);
+    background-position: center;
+    background-size: cover;
+    width: 450px;
+    min-height: 580px;
+}
+
+.cv-btn{
+    width: 120px;
+    padding: 10px;
+}
+
+.works{
+    width: 100%;
+    min-height: 100vh;
+    background: url(./img/latest-work-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.work-heading{
+    text-align: center;
+    padding: 80px;
+    font-size: 28px;
+}
+
+.work-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-img{
+    width: 25%;
+    height: 40vh;
+}
+
+.img-1{    
+    background: url(./img/latest-work/work-1.png);
+    background-position: center;
+    background-size: cover;
+}
+.img-2{    
+    background: url(./img/latest-work/work-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-3{    
+    background: url(./img/latest-work/work-3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.footer{
+    width: 100%;
+    min-height: 100vh;
+    background: url(./img/footer-bg.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.footer .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer .content .heading{
+    margin-top: -20px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.footer .content .personal-info{
+    padding-top: 20px;
+}
+
+.footer .content .personal-info  p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer .content .detail{
+    margin-top: 40px;
+    line-height: 1.5;
+}
+
+
+.footer .content .personal-info  span{
+    font-weight: normal;
+    color: #4d4d4d;
+}
+
+.footer .content .ctn-box{
+    color: #fff;
+    background: #EC4D83;
+    width: 690px;
+    border-radius: .5rem;
+    padding: 40px;
+    margin: 0 40px 0 60px;
+}
+
+.footer .content .ctn-box h3{
+    margin-top: 30px;
+}   
+
+.footer .copy{
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+}
+
+.footer .copy p{
+    color: #4a4a4a;
+    font-weight: bold;
+}
